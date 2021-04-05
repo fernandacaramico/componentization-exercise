@@ -1,0 +1,82 @@
+body {
+    font-family: 'Zilla Slab', serif;
+}
+
+.highlight {
+    font-family: 'Zilla Slab Highlight', monospace;
+    color: rgb(126, 126, 126)
+}
+
+.header {
+    overflow: auto;
+    border-bottom: 1px solid salmon;
+    margin-bottom: 20px;
+}
+
+.logo {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 30px;
+}
+
+li {
+    float: left;
+    padding-left: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.meus-filmes .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.filme {
+    width: 30%;
+    height: 230px;
+    margin-bottom: 30px;
+    background-color: darksalmon;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filme:hover {
+    box-shadow: -8px 8px darkslategray;
+}
+
+.poster {
+    width: 160px;
+    height: 230px;
+    overflow: hidden;
+}
+
+.poster img {
+    height: 230px;
+}
+
+.dados {
+    width: 45%;
+    height: 230px;
+}
+
+.titulo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footer {
+    text-align: center;
+    border-top: 1px solid salmon;
+    padding-top: 20px;
+    margin: 20px 0 50px;
+}
