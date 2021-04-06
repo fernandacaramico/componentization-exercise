@@ -4,7 +4,7 @@ Esse projeto foi iniciado com [Create React App](https://github.com/facebook/cre
 
 ## Instalação
 
-**Clone ou faça download do projeto; abra o diretório raiz (music-box) no VS Code, e no terminal execute**:
+**Clone ou faça download do projeto; abra o diretório raiz no VS Code, e no terminal execute**:
 
 ```shell
 npm install
