@@ -80,3 +80,17 @@ li {
     padding-top: 20px;
     margin: 20px 0 50px;
 }
+
+
+/* PAÍSES */
+
+.card-do-pais {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 30px;
+    height: 230px;
+    width: 25%;
+    border: 3px solid purple;
+    border-radius: 10px;
+    float: left;
+    margin: 10px 1%;
+}
