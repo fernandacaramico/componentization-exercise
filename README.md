@@ -2,30 +2,84 @@
 
 Esse projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app).
 
-## Instalação
+## Iniciando . . .
 
-**Clone ou faça download do projeto; abra o diretório raiz no VS Code, e no terminal execute**:
+- Clone ou faça download do projeto;
+- Abra o diretório raiz no VS Code
+- No terminal execute:
 
 ```shell
 npm install
 ```
 
-**Após terminar, execute:**
+- Após terminar a instalação, execute:
 
 ```shell
 npm start
 ```
 
-### `npm start`
+### :zap: O que faz o comando `npm start`?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Roda a aplicação em modo de desenvolvimento.
+Acesse [http://localhost:3000](http://localhost:3000) para vê-la no navegador.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+_Esta página vai atualizar se você fizer alterações e em console estarão os erros._
 
-## Learn More
+## Adicionando props!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+_Fizemos os códigos abaixo em aula, mas apaguei para que vocês façam e vejam a mágina funcionando!_
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Arquivo /src/components/CardCountry.js
+```javascript
+import React from 'react';
+
+function CardCountry(props) {
+    return (
+
+        <div className="card-do-pais">
+            <h1>{props.nome}</h1>
+            <h2>{props.continente}</h2>
+            <h3>{props.capital}</h3>
+            <p>{props.idioma}</p>
+        </div>
+        
+    );
+}
+
+export default CardCountry;
+
+```
+
+### Arquivo /src/pages/PaginaPaises.js
+```javascript
+import CardCountry from "../components/CardCountry";
+
+function PaginaPaises() {
+  return (
+    <>
+      <CardCountry nome="Itália" continente="Europa" capital="Roma" idioma="Italiano"/>
+      <CardCountry nome="Chile" continente="América" capital="Santiago" idioma="Español" />
+      <CardCountry nome="Rússia" continente="EuroÁsia" capital="Moscou" idioma="Russo" />
+      <CardCountry nome="Austrália" continente="Oceania" capital="Camberra" idioma="Inglês" />
+    </>
+  );
+}
+
+export default PaginaPaises;
+
+```
+
+## Gosta de um desafio?
+
+Em `/src/hmtl/html-dos-filmes.html` você vai encontrar uma outra página, como abaixo. 
+
+**O DESAFIO:** Passar este código para React! :smiley:
+
+_Sugestão de arquivos para componentizar a página:_
+- /src/pages/PaginaFilmes.js
+- /src/components/NavBar.js
+- /src/components/CardFilmes.js
+- /src/components/Footer.js
+
+
+
