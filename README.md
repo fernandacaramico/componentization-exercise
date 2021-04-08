@@ -69,6 +69,12 @@ export default PaginaPaises;
 
 ```
 
+### Abaixo, diagrama feito em aula
+
+Com componentes em verde, diretórios em azul e em destaque amarelo o index renderizando `<PaginaPaises />` em `<div id="root">`.
+
+![diagrama](https://github.com/fernandacaramico/componentization-exercise/blob/main/src/assets/DiagramaComponentizacaoExercicio.jpeg?raw=true) 
+
 ## :boom: :boom: :boom: Gosta de um desafio? :boom: :boom: :boom:
 
 Em `/src/hmtl/html-dos-filmes.html` você vai encontrar uma outra página, como abaixo. 
