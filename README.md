@@ -1,4 +1,4 @@
-# Iniciando com Create React App
+# Componentization exercise
 
 Esse projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app).
 
@@ -18,16 +18,16 @@ npm install
 npm start
 ```
 
-### :zap: O que faz o comando `npm start`?
+### O que faz o comando `npm start`?
 
 Roda a aplicação em modo de desenvolvimento.
 Acesse [http://localhost:3000](http://localhost:3000) para vê-la no navegador.
 
 _Esta página vai atualizar se você fizer alterações e em console estarão os erros._
 
-## Adicionando props!
+## :zap: :zap: :zap: Adicionando props! :zap: :zap: :zap:
 
-_Fizemos os códigos abaixo em aula, mas apaguei para que vocês façam e vejam a mágina funcionando!_
+Fizemos os códigos abaixo em aula, mas apaguei para que vocês refaçam e vejam a mágina funcionando!
 
 ### Arquivo /src/components/CardCountry.js
 ```javascript
@@ -69,17 +69,17 @@ export default PaginaPaises;
 
 ```
 
-## Gosta de um desafio?
+## :boom: :boom: :boom: Gosta de um desafio? :boom: :boom: :boom:
 
 Em `/src/hmtl/html-dos-filmes.html` você vai encontrar uma outra página, como abaixo. 
 
 **O DESAFIO:** Passar este código para React! :smiley:
 
 _Sugestão de arquivos para componentizar a página:_
-- /src/pages/PaginaFilmes.js
-- /src/components/NavBar.js
-- /src/components/CardFilmes.js
-- /src/components/Footer.js
+- `/src/pages/PaginaFilmes.js`
+- `/src/components/NavBar.js`
+- `/src/components/CardFilmes.js`
+- `/src/components/Footer.js`
 
-
+![desafio](https://github.com/fernandacaramico/componentization-exercise/blob/main/src/assets/html-meus-filmes.png?raw=true)
 
