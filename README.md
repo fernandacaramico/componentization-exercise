@@ -73,7 +73,7 @@ export default PaginaPaises;
 
 ```
 
-### Abaixo, diagrama feito em aula
+### Abaixo, diagrama do exercício
 
 Com componentes em verde, diretórios em azul e em destaque amarelo o index renderizando `<PaginaPaises />` em `<div id="root">`.
 
