@@ -2,6 +2,8 @@
 
 Esse projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app).
 
+O exercício é adicionar **props** ao seu componente `/src/components/CardCountry.js` para que ele tenha diferentes nomes de países dependendo do que for escolhido ao renderizar o componente na página `/src/pages/PaginaPaises.js`.
+
 ## Iniciando...
 
 - Clone ou faça download do projeto;
@@ -27,7 +29,8 @@ _Esta página vai atualizar se você fizer alterações e em console estarão os
 
 ## :zap: :zap: :zap: Adicionando props! :zap: :zap: :zap:
 
-Fizemos os códigos abaixo em aula, mas apaguei para que vocês refaçam e vejam a mágina funcionando!
+Abaixo, temos a resposta!! (**Tente fazer por conta própria antes de sair copiando, ok?**)
+:wink::sparkles: _'tô de olho!!!!_
 
 ### Arquivo /src/components/CardCountry.js
 
