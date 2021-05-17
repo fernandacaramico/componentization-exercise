@@ -5,11 +5,10 @@ Esse projeto foi iniciado com [Create React App](https://github.com/facebook/cre
 
 O exercício é adicionar **props** ao seu componente `/src/components/CardCountry.js` para que ele tenha diferentes nomes de países dependendo do que for escolhido ao renderizar o componente na página `/src/pages/PaginaPaises.js`.
 
-
-## Iniciando . . .
+## Como começar:
 
 - Clone ou faça download do projeto;
-- Abra o diretório raiz no VS Code
+- Abra o diretório raiz no VS Code;
 - No terminal execute:
 
 ```shell
@@ -22,6 +21,7 @@ npm install
 npm start
 ```
 
+
 ### O que faz o comando `npm start`?
 
 Roda a aplicação em modo de desenvolvimento.
@@ -33,6 +33,7 @@ _Esta página vai atualizar se você fizer alterações e em console estarão os
 
 Abaixo, temos a resposta!! (**Tente fazer por conta própria antes de sair copiando, ok?**)
 :wink::sparkles: _'tô de olho!!!!_
+
 
 ### Arquivo /src/components/CardCountry.js
 
@@ -54,6 +55,7 @@ function CardCountry(props) {
 
 export default CardCountry;
 ```
+
 
 ### Arquivo /src/pages/PaginaPaises.js
 
@@ -95,3 +97,5 @@ _Sugestão de arquivos para componentizar a página:_
 - `/src/components/Footer.js`
 
 ![desafio](https://github.com/fernandacaramico/componentization-exercise/blob/main/src/assets/html-meus-filmes.png?raw=true)
+
+### fim!
